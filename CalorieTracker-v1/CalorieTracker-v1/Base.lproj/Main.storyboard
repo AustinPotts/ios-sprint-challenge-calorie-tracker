@@ -20,7 +20,7 @@
                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="UbW-2v-Fsy" detailTextLabel="NKW-bO-ToJ" style="IBUITableViewCellStyleValue1" id="YnQ-mC-uaE">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CalorieCell" textLabel="UbW-2v-Fsy" detailTextLabel="NKW-bO-ToJ" style="IBUITableViewCellStyleValue1" id="YnQ-mC-uaE">
                                 <rect key="frame" x="0.0" y="329" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YnQ-mC-uaE" id="YOq-ha-IUp">
@@ -52,8 +52,15 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Track My Fat" id="Svq-MD-9z5">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="EXn-E0-Low"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="EXn-E0-Low">
+                            <connections>
+                                <action selector="addIntake:" destination="wjn-Bp-NkQ" id="lFC-Ae-leG"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="chartView" destination="OIK-xp-bcJ" id="yEh-cU-srq"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PAT-gv-N1C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

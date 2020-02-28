@@ -14,6 +14,7 @@
 		45883B1C24097212008578B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45883B1A24097212008578B0 /* LaunchScreen.storyboard */; };
 		45883B5524098AE7008578B0 /* CalorieTrackerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45883B5424098AE7008578B0 /* CalorieTrackerTableViewController.swift */; };
 		45883B5924098B7D008578B0 /* CaloriesIntake.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45883B5724098B7D008578B0 /* CaloriesIntake.xcdatamodeld */; };
+		45883B5B24098BB1008578B0 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45883B5A24098BB1008578B0 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		45883B1D24097212008578B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45883B5424098AE7008578B0 /* CalorieTrackerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieTrackerTableViewController.swift; sourceTree = "<group>"; };
 		45883B5824098B7D008578B0 /* CaloriesIntake.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CaloriesIntake.xcdatamodel; sourceTree = "<group>"; };
+		45883B5A24098BB1008578B0 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		4DE68BD48F184E0F57985782 /* Pods-CalorieTracker-v1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalorieTracker-v1.release.xcconfig"; path = "Target Support Files/Pods-CalorieTracker-v1/Pods-CalorieTracker-v1.release.xcconfig"; sourceTree = "<group>"; };
 		E963FE07A4884C7FFC988ACF /* Pods-CalorieTracker-v1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalorieTracker-v1.debug.xcconfig"; path = "Target Support Files/Pods-CalorieTracker-v1/Pods-CalorieTracker-v1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				45883B5724098B7D008578B0 /* CaloriesIntake.xcdatamodeld */,
+				45883B5A24098BB1008578B0 /* CoreDataStack.swift */,
 			);
 			path = "Core Data";
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45883B5B24098BB1008578B0 /* CoreDataStack.swift in Sources */,
 				45883B5524098AE7008578B0 /* CalorieTrackerTableViewController.swift in Sources */,
 				45883B5924098B7D008578B0 /* CaloriesIntake.xcdatamodeld in Sources */,
 				45883B102409720F008578B0 /* AppDelegate.swift in Sources */,

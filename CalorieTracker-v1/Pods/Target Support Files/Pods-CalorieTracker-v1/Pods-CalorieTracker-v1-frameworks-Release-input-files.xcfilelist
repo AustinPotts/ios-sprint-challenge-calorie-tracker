@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-CalorieTracker-v1/Pods-CalorieTracker-v1-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework
